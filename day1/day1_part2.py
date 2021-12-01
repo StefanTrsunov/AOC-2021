@@ -9,7 +9,7 @@ ans = 0
 
 current_sum = sum(data[:3])
 prev_sum = 1
-for i in range(1,n):
+for i in range(n - 3):
     if current_sum > prev_sum:
         ans += 1
 
