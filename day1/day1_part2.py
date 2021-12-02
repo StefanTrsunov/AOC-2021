@@ -1,5 +1,5 @@
 data = []
-with open("day1_input") as f:
+with open("day1.txt", "r") as f:
     for line in f:
         line.split('\n')
         data.append(int(line))
